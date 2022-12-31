@@ -11,7 +11,7 @@ headers = {
 #openai.api_key = os.getenv("OPENAI_API_KEY")
 # openAI code
 
-def openai_create(prompt):
+def openai_create(prompt):""
 
     response = openai.Completion.create(
     model="text-davinci-003",
