@@ -3,7 +3,10 @@ import openai
 import streamlit as st
 from streamlit_chat import message
 
-openai.api_key = ""
+headers = {
+    "authorization": st.secrets["API_KEY"],
+
+#openai.api_key = ""
 
 #openai.api_key = os.getenv("OPENAI_API_KEY")
 # openAI code
