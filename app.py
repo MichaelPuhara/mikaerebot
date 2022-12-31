@@ -5,6 +5,7 @@ from streamlit_chat import message
 
 headers = {
     "authorization": st.secrets["API_KEY"],
+    }
 
 #openai.api_key = ""
 
